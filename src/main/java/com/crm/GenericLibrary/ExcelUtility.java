@@ -67,6 +67,7 @@ public class ExcelUtility {
 			 cel.setCellValue(value);
 			 FileOutputStream fos=new FileOutputStream(IpathConstanants.ExcelPath);
 			 wb.write(fos);
+	
 		}
 	
 		/**
